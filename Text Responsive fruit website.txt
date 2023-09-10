@@ -117,9 +117,7 @@ News
  Videos
 
 Address
- Av. Hacienda 1234 <br> 
- Lima 4321, Perú 
- 9AM - 11PM    
+
 
 Social Media
 
@@ -129,4 +127,4 @@ https://www.instagram.com/
 https://www.youtube.com/
 
 .footer__copy
-&#169; All Rights Reserved By Azhar
+&#169; All Rights Reserved By Azhar.
