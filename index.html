@@ -26,7 +26,7 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link">Home</a>
+                     <a href="#home" class="nav__link active-link">Home</a>
                   </li>
 
                   <li class="nav__item">
@@ -51,9 +51,14 @@
                <img src="assets/img/fruit-line-1.png" alt="fruit-line" class="nav__img-2">
             </div>
 
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-apps-2-line"></i>
+            <div class="nav__buttons">
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-line"></i>
+               </div>
             </div>
          </nav>
       </header>
@@ -62,37 +67,316 @@
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Enjoy The <br>
+                     Best Fresh <br>
+                     Fruits
+                  </h1>
+
+                  <p class="home__description">
+                     Enjoy the best organic fruits harvested with 
+                     the best possible quality, obtaining unique 
+                     and delicious flavors.
+                  </p>
+
+                  <a href="#" class="button">
+                     Order fruit Now
+                  </a>
+
+                  <img src="assets/img/fruit-line-2.png" alt="image" class="home__fruit">
+               </div>
+
+               <img src="assets/img/home-fruits.png" alt="home-fruit" class="home__img">
+            </div>
+
+            <img src="assets/img/branch-2.png" alt="branch" class="home__branch">
          </section>
 
          <!--==================== ENJOY ====================-->
          <section class="enjoy section">
-            
+            <h2 class="section__title">
+               Eat and Enjoy
+            </h2>
+
+            <div class="enjoy__container container grid">
+               <article class="enjoy__card">
+                  <div class="enjoy__bg"></div>
+
+                  <img src="assets/img/enjoy-1.png" alt="img" class="enjoy__img" >
+                  <h3 class="enjoy__title">Healthy</h3>
+                  <span class="enjoy__subtitle">Tropical Fruit</span>
+               </article>
+
+               <article class="enjoy__card">
+                  <div class="enjoy__bg"></div>
+
+                  <img src="assets/img/enjoy-2.png" alt="img" class="enjoy__img" >
+                  <h3 class="enjoy__title">Delicious</h3>
+                  <span class="enjoy__subtitle">Field Fruit</span>
+               </article>
+
+               <article class="enjoy__card">
+                  <div class="enjoy__bg"></div>
+
+                  <img src="assets/img/enjoy-3.png" alt="img" class="enjoy__img" >
+                  <h3 class="enjoy__title">Organic</h3>
+                  <span class="enjoy__subtitle">Tropical Fruit</span>
+               </article>
+            </div>
          </section>
 
          <!--==================== ABOUT US ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     We Provide <br>
+                     Healthy Fruits
+                  </h2>
+
+                  <p class="about__description">
+                     The fruits come to us from the best 
+                     harvests, planted with the care required to 
+                     obtain the best quality fruit, enjoying its 
+                     flavors and taking care of your health.
+                  </p>
+
+                  <a href="#" class="button">
+                     Know More
+                  </a>
+
+                  <img src="assets/img/fruit-line-1.png" alt="image" class="about__fruit">
+               </div>
+
+               <img src="assets/img/about-fruits.png" alt="about__img" class="about__img">
+            </div>
+
+            <img src="assets/img/branch-1.png" alt="branch image" class="about__branch">
          </section>
 
          <!--==================== POPULAR ====================-->
          <section class="popular section" id="popular">
-            
+            <h2 class="section__title">
+               Popular Fruits
+            </h2>
+
+            <div class="popular__container container grid">
+               <article class="popular__card">
+                  <div class="popular__bg"></div>
+
+                  <img src="assets/img/popular-1.png" alt="popular img" class="popular__img">
+                  <h3 class="popular__title">Apple</h3>
+                  <span class="popular__subtitle">Organic Fruit</span>
+                  <h3 class="popular__price">$4.00</h3>
+
+                  <button class="popular__button button" >
+                     <i class="ri-add-line"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__bg"></div>
+
+                  <img src="assets/img/popular-2.png" alt="popular img" class="popular__img">
+                  <h3 class="popular__title">Watermelon</h3>
+                  <span class="popular__subtitle">Organic Fruit</span>
+                  <h3 class="popular__price">$7.00</h3>
+
+                  <button class="popular__button button" >
+                     <i class="ri-add-line"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__bg"></div>
+
+                  <img src="assets/img/popular-3.png" alt="popular img" class="popular__img">
+                  <h3 class="popular__title">Pineapple</h3>
+                  <span class="popular__subtitle">Organic Fruit</span>
+                  <h3 class="popular__price">$5.00</h3>
+
+                  <button class="popular__button button" >
+                     <i class="ri-add-line"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__bg"></div>
+
+                  <img src="assets/img/popular-4.png" alt="popular img" class="popular__img">
+                  <h3 class="popular__title">Banana</h3>
+                  <span class="popular__subtitle">Organic Fruit</span>
+                  <h3 class="popular__price">$3.00</h3>
+
+                  <button class="popular__button button" >
+                     <i class="ri-add-line"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__bg"></div>
+
+                  <img src="assets/img/popular-5.png" alt="popular img" class="popular__img">
+                  <h3 class="popular__title">Strawberry</h3>
+                  <span class="popular__subtitle">Organic Fruit</span>
+                  <h3 class="popular__price">$8.00</h3>
+
+                  <button class="popular__button button" >
+                     <i class="ri-add-line"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__bg"></div>
+
+                  <img src="assets/img/popular-6.png" alt="popular img" class="popular__img">
+                  <h3 class="popular__title">Mango</h3>
+                  <span class="popular__subtitle">Organic Fruit</span>
+                  <h3 class="popular__price">$6.00</h3>
+
+                  <button class="popular__button button" >
+                     <i class="ri-add-line"></i>
+                  </button>
+               </article>
+            </div>
          </section>
 
          <!--==================== JOIN US ====================-->
          <section class="join section" id="join">
-            
+            <div class="join__container container grid">
+               <div class="join__content grid"> 
+                  <img src="assets/img/join-bg.png" alt="join image" class="join__bg">
+
+                  <div class="join__data">
+                     <h2 class="section__title">
+                        Receive The <br>
+                        Best Fruits 
+                     </h2>
+
+                     <p class="join__description">
+                        Get up to date with the latest fruit 
+                        harvests and information from us.
+                     </p>
+                  </div>
+
+                  <form action="" class="join__form">
+                     <input type="email" placeholder="Enter your email" class="join__input">
+
+                     <button class="join__button button">
+                        Subscribe Now
+                     </button>
+                  </form>
+
+               </div>
+
+               <img src="assets/img/leaf.png" alt="leaf mage" class="join__leaf-1">
+               <img src="assets/img/leaf.png" alt="leaf mage" class="join__leaf-2">
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <img src="assets/img/logo.png" alt="logo"> Fruit
+               </a>
+
+               <p class="footer__description">
+                  Eat healthy, choose <br>
+                  the best fruits. 
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">Company</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">FAQs</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">About Us</a>
+                     </li>
+                     
+                     <li>
+                        <a href="#" class="footer__link"> Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">News</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Features</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Testimonial</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Videos</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Address</h3>
+
+                  <ul class="footer__links">
+                     <li class="footer__info">
+                        CGC, Landran <br>
+                        Mohali 140307, Punjab
+                     </li>
+
+                     <li class="footer__info">
+                        9AM - 11:30PM
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social Media
+                  </h3>
+
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+
+                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <img src="assets/img/fruit-line-3.png" alt="footer fruit image" class="footer__fruit">
+            <img src="assets/img/branch-1.png" alt="brach image" class="footer__branch-1">
+            <img src="assets/img/branch-2.png" alt="brach image" class="footer__branch-2">
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By Azhar.
+         </span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
