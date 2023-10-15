@@ -568,6 +568,7 @@ body.dark-theme{
   position: absolute;
   left: 0;
   right: 0;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
 
